@@ -1,4 +1,5 @@
 require_relative 'commands_util'
+require_relative '../visitors/report_generator'
 module Commands
   class DoctypeCommand
     include CommandsUtil
@@ -9,10 +10,8 @@ module Commands
       end
     end    
     
-=begin    
     def accept(visitor)
       visitor.visitDoctype(self)
     end
-=end
   end
 end
