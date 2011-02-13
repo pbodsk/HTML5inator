@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>test/test_title_command.rb</string>
+	<string>README</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,8 +13,6 @@
 			<string>HTML5inator</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>selected</key>
-			<true/>
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
@@ -23,6 +21,20 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>README</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>64</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>Rakefile</key>
 		<dict>
 			<key>caret</key>
@@ -161,6 +173,7 @@
 		<string>test/test_doctype_command.rb</string>
 		<string>lib/commands/title_command.rb</string>
 		<string>test/test_title_command.rb</string>
+		<string>README</string>
 		<string>Rakefile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>

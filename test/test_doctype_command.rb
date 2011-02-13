@@ -12,12 +12,16 @@ class TestDoctypeCommand < Test::Unit::TestCase
     refute_nil(@doctype_command)      
   end
   
-  def test_will_return_false_if_not_html5_doctype
-    refute(@doctype_command.execute(@page))
+  def test_html5_doctype_will_be_false_if_not_html5_doctype
+    @doctype_command.execute(@page)
+    
+    refute(@doctype_command.html5_doctype)
   end
   
-  def test_will_return_true_if_html5_doctype
+  def test_html5_doctype_will_be_true_if_html5_doctype
     @page = Parse::PageProvider.new("http://youtube.com/html5").page
-    assert(@doctype_command.execute(@page))
+    @doctype_command.execute(@page)
+    
+    assert(@doctype_command.html5_doctype)
   end
 end

@@ -14,6 +14,7 @@ class TestTitleCommand < Test::Unit::TestCase
   end
   
   def test_will_return_title
-    assert_equal(@title_command.execute(@page), "Peter Bødskov")
+    @title_command.execute(@page)
+    assert_equal(@title_command.title, "Peter Bødskov")
   end  
 end
