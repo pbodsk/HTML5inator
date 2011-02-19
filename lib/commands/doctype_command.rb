@@ -4,7 +4,7 @@ module Commands
   class DoctypeCommand
     include CommandsUtil
     attr_reader :html5_doctype
-    def initialize(&command)
+    def initialize()
       @command = lambda do |page| 
         @html5_doctype =  ! /<!DOCTYPE html SYSTEM>/.match(page.at('!DOCTYPE').to_s).nil?
       end
