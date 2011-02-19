@@ -13,5 +13,10 @@ module Commands
     def accept(visitor)
       visitor.visitDoctype(self)
     end
+    
+    def execute_and_accept(page, visitor)
+      execute(page)
+      accept(visitor)
+    end
   end
 end

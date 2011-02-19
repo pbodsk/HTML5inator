@@ -1,12 +1,12 @@
 require_relative '../lib/commands/doctype_command'
 require_relative '../lib/visitors/report_generator'
-
+require_relative '../lib/parse/page_provider'
 require_relative 'mock_page'
 require 'test/unit'
 
 class TestDoctypeCommand < Test::Unit::TestCase
   def setup
-#    @page = Parse::PageProvider.new("http://peterbodskov.dk").page
+    puts "setup"
     @page = MockPage.new
     @doctype_command = Commands::DoctypeCommand.new 
   end

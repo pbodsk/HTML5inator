@@ -1,5 +1,5 @@
-require 'hpricot'
 require 'open-uri'
+require 'hpricot'
 module Parse
   class PageProvider
     attr_reader :page

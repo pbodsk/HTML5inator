@@ -7,5 +7,9 @@ module Visitors
         "<p>Your doctype could be upgraded to <!DOCTYPE html></p>"
       end
     end
+    
+    def visitTitle(title_command)
+      "<p>Title: #{title_command.title}</p>"
+    end
   end
 end

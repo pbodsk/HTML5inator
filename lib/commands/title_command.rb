@@ -8,5 +8,14 @@ module Commands
         @title = page.at(:title).inner_html
       end
     end    
+    
+    def accept(visitor)
+        visitor.visitTitle(self)
+    end
+
+    def execute_and_accept(page, visitor)
+      execute(page)
+      accept(visitor)
+    end
   end
 end
