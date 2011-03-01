@@ -78,7 +78,7 @@ class TestDoctypeCommand < Test::Unit::TestCase
     @script_tag_command.execute_and_accept(@page, @report_generator)
     
     output = @report_generator.generate_html
-    puts output
+    #puts output
     refute_nil(/text\/javascript/ =~ output)
     refute_nil(/text\/css/ =~ output)
  
