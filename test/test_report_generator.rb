@@ -8,7 +8,7 @@ class TestDoctypeCommand < Test::Unit::TestCase
     @report_generator = Visitors::ReportGenerator.new
   end
 
-  def test_can_create
+  def test_can_create_report_generator
     refute_nil(@report_generator)
   end
   

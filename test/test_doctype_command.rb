@@ -11,7 +11,7 @@ class TestDoctypeCommand < Test::Unit::TestCase
     @doctype_command = Commands::DoctypeCommand.new 
   end
   
-  def test_can_create 
+  def test_can_create_doctype_command 
     refute_nil(@doctype_command)      
   end
   
