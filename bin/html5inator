@@ -1,0 +1,5 @@
+#! /usr/bin/ruby
+require 'utils/runner'
+runner = Utils::Runner.new(ARGV) 
+runner.run
+puts runner.report_generator.generate_html

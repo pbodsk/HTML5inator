@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>test/test_report_generator.rb</string>
+	<string>test/test_doctype_command.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -197,6 +197,20 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
+		<key>lib/utils/options_parser.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>lib/visitors/report_generator.rb</key>
 		<dict>
 			<key>caret</key>
@@ -209,7 +223,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>34</integer>
+			<integer>0</integer>
 		</dict>
 		<key>test/mock_page.rb</key>
 		<dict>
@@ -244,9 +258,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>37</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>test/test_options_parser.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>4</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -288,14 +316,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>80</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>52</integer>
+			<integer>0</integer>
 		</dict>
 		<key>test/test_script_tag_command.rb</key>
 		<dict>
@@ -351,6 +379,8 @@
 		<string>lib/visitors/report_generator.rb</string>
 		<string>test/test_doctype_command.rb</string>
 		<string>test/test_report_generator.rb</string>
+		<string>lib/utils/options_parser.rb</string>
+		<string>test/test_options_parser.rb</string>
 		<string>lib/commands/css_tag_command.rb</string>
 		<string>test/test_css_tag_command.rb</string>
 		<string>lib/commands/script_tag_command.rb</string>
@@ -364,6 +394,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{230, 174}, {1206, 628}}</string>
+	<string>{{251, 179}, {1206, 628}}</string>
 </dict>
 </plist>

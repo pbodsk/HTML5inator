@@ -11,6 +11,7 @@ module Commands
         @styles = []
         @all_styles = page.search("link")
         @all_styles.each do |style|
+          style = style.to_s
           if /text\/css/ =~ style
             style.gsub!(/</, "&lt;")
             style.gsub!(/>/, "&gt;")

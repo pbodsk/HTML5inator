@@ -11,6 +11,7 @@ module Commands
         @scripts = []
         @all_scripts = page.search("script")
         @all_scripts.each do |script|
+          script = script.to_s
           if /text\/javascript/ =~ script
             script.gsub!(/</, "&lt;")
             script.gsub!(/>/, "&gt;")
