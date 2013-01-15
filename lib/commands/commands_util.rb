@@ -6,7 +6,7 @@ module Commands
     
     def execute_and_accept(page, visitor)
       execute(page)
-      accept(visitor)
+      accept(visitor) 
     end 
   end
 end
